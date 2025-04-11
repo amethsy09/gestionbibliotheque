@@ -46,11 +46,11 @@ function login($email, $password) {
                 redirect('Adherent', 'dashboard');
                 break;
             default:
-                redirect('security', 'login');
+                redirect('visiteur', 'liste');
         }
     } else {
         $_SESSION["error"] = "Email ou mot de passe incorrect.";
-        redirect('security', 'login');
+        redirect('visiteur', 'liste');
     }
 }
 

@@ -45,7 +45,7 @@
                     class="w-1/2 px-4 py-2 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm" />
                 <div class="flex items-center space-x-4">
                     <span class="text-gray-500 text-xl">🔔</span>
-                    <img src="https://via.placeholder.com/40" alt="User" class="rounded-full w-10 h-10 border" />
+                    <img src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="User" class="rounded-full w-10 h-10 border" />
                 </div>
             </div>
 
@@ -54,7 +54,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <!-- Card template -->
                 <div class="bg-white rounded-xl shadow hover:shadow-lg p-5 text-center transition-all duration-300">
-                    <img src="./image 12.png" alt="Lavenir" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
+                    <img src="images/image 12.png" alt="Lavenir" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
                     <h3 class="font-semibold text-lg">L'avenir</h3>
                     <a href="#" class="text-blue-500 text-sm">Détails</a>
                     <p class="text-gray-500 text-sm mt-2">
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="bg-white rounded-xl shadow hover:shadow-lg p-5 text-center transition-all duration-300">
-                    <img src="./image 13.png" alt="Le passé" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
+                    <img src="images/image 13.png" alt="Le passé" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
                     <h3 class="font-semibold text-lg">Le passé</h3>
                     <a href="#" class="text-blue-500 text-sm">Détails</a>
                     <p class="text-gray-500 text-sm mt-2">
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="bg-white rounded-xl shadow hover:shadow-lg p-5 text-center transition-all duration-300">
-                    <img src="./image 14.png" alt="Le présent" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
+                    <img src="images/image 14.png" alt="Le présent" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
                     <h3 class="font-semibold text-lg">Le présent</h3>
                     <a href="#" class="text-blue-500 text-sm">Détails</a>
                     <p class="text-gray-500 text-sm mt-2">
@@ -82,7 +82,7 @@
 
                 <!-- Copies supplémentaires -->
                 <div class="bg-white rounded-xl shadow hover:shadow-lg p-5 text-center transition-all duration-300">
-                    <img src="./image 12.png" alt="Lavenir" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
+                    <img src="images/image 12.png" alt="Lavenir" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
                     <h3 class="font-semibold text-lg">L'avenir</h3>
                     <a href="#" class="text-blue-500 text-sm">Détails</a>
                     <p class="text-gray-500 text-sm mt-2">
@@ -91,7 +91,7 @@
                 </div>
 
                 <div class="bg-white rounded-xl shadow hover:shadow-lg p-5 text-center transition-all duration-300">
-                    <img src="./image 13.png" alt="Le passé" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
+                    <img src="images/image 13.png" alt="Le passé" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
                     <h3 class="font-semibold text-lg">Le passé</h3>
                     <a href="#" class="text-blue-500 text-sm">Détails</a>
                     <p class="text-gray-500 text-sm mt-2">
@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="bg-white rounded-xl shadow hover:shadow-lg p-5 text-center transition-all duration-300">
-                    <img src="./image 14.png" alt="Le présent" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
+                    <img src="images/image 14.png" alt="Le présent" class="mx-auto mb-4 rounded-lg w-full h-40 object-cover" />
                     <h3 class="font-semibold text-lg">Le présent</h3>
                     <a href="#" class="text-blue-500 text-sm">Détails</a>
                     <p class="text-gray-500 text-sm mt-2">

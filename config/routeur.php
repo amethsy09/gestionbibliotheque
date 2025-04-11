@@ -5,6 +5,7 @@ require_once "../config/helpers.php";
 // require_once "../controller/security.controller.php";
 $controllers= [
     "RB" =>"../controller/RB.controller.php",
+    "visiteur"=>"../controller/visiteur.controller.php",
      "security" =>"../controller/security.controller.php"
 ];
 
@@ -17,5 +18,5 @@ if (isset($_GET['controller'])) {
         require_once $controllers["RB"];
     }
 } else {
-    require_once $controllers["security"];
+    require_once $controllers["visiteur"];
 }

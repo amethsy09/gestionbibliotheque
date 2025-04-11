@@ -14,25 +14,29 @@
 
         <!-- Sidebar -->
         <aside class="w-64 bg-white border-r border-gray-200 p-6 relative shadow-md">
-            <div class="flex items-center space-x-2 text-xl font-bold text-gray-800">
+            <div class="flex items-center space-x-2 text-2xl font-bold text-gray-800">
                 <span class="text-indigo-600 text-2xl">📚</span>
                 <span>Gestion Bibliothèque</span>
             </div>
 
             <nav class="mt-10 space-y-4 text-sm font-medium">
-                <a href="#" class="flex items-center space-x-2 text-indigo-600">
+                <a href="#" class="flex items-center space-x-2 text-2xl text-indigo-600">
                     <span>📋</span><span>Dashboard</span>
                 </a>
-                <a href="#" class="flex items-center space-x-2 text-gray-600 hover:text-indigo-600 transition">
+                <a href="#" class="flex items-center space-x-2 text-2xl text-gray-600 hover:text-indigo-600 transition">
                     <span>📘</span><span>Faire une demande</span>
                 </a>
-                <a href="#" class="flex items-center space-x-2 text-gray-600 hover:text-indigo-600 transition">
+                <a href="?controller=visiteur&page=inscription" class="flex items-center text-2xl space-x-2 text-gray-600 hover:text-indigo-600 transition">
                     <span>📨</span><span>S'inscrire</span>
                 </a>
             </nav>
 
             <div class="absolute bottom-6 left-6 text-gray-700 text-sm">
-                <a href="#" class="hover:text-red-500 transition">> Logout</a>
+                <!-- <a href="" class="text-2xl transition hover:text-red-500" title="Se déconnecter">Logout</a> -->
+                <a href="<?= WEBROOT ?>?controller=security&page=logout" class="flex items-center justify-between px-4 py-2 text-purple-700 hover:text-purple-800 hover:bg-purple-200 rounded-xl transition-colors duration-200">
+                    <span>Déconnexion</span>
+                    <i class="ri-logout-box-line"></i>
+                </a>
             </div>
         </aside>
 
@@ -43,10 +47,6 @@
             <div class="flex justify-between items-center mb-8">
                 <input type="text" placeholder="Rechercher un catalogue"
                     class="w-1/2 px-4 py-2 rounded-full border border-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm" />
-                <div class="flex items-center space-x-4">
-                    <span class="text-gray-500 text-xl">🔔</span>
-                    <img src="https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="User" class="rounded-full w-10 h-10 border" />
-                </div>
             </div>
 
             <!-- Catalogue List -->

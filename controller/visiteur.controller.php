@@ -32,6 +32,13 @@ switch ($page) {
                     $error['password'] = "Le password est requis";
                     }
                     $result = ajouterVisiteur($nom, $prenom, $email, $hashedPassword);
+                    if ($result) {
+                      header('Location: index.php?page=login&success=1');
+                      redirect('security','login');
+                      exit;
+                  } else {
+                      $error = "Erreur lors de l'inscription. Essayez à nouveau.";
+                  }
                 }
             }
        
